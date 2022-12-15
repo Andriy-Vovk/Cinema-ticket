@@ -1,0 +1,44 @@
+.product-introduction {
+  width: 100%;
+background-image: url("../../assets/back.png");
+
+
+
+  .recommendation-box {
+    height: 85vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    &__text-container {
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+      margin-left: 40px;
+      button{
+        cursor: not-allowed;
+      }
+    }
+
+    &__title {
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 76px;
+      color: white;
+    }
+
+
+
+
+
+
+    &__description {
+      font-weight: 300;
+      font-size: 25px;
+      color: white;
+    }
+  }
+}
